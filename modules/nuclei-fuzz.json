@@ -1,0 +1,5 @@
+[{
+  "command":"rm -rf /home/op/fuzzing-templates && git clone https://github.com/projectdiscovery/fuzzing-templates.git /home/op/fuzzing-templates && cat input | /home/op/go/bin/nuclei -t _wordlist_ -o output",
+  "ext":"txt",
+  "wordlist":"/home/op/fuzzing-templates"
+}]
